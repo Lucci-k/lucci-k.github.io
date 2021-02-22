@@ -6,21 +6,21 @@ When I first started my computer science journey in early 2017, I understood and
 
 ##### Teamwork and Collaboration
 <details>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<summary>Click here to learn more!</summary>
+	<summary>Click here to learn more!</summary>
 
 I learned that software engineers do not work alone; codebases, especially those in large projects, have many dynamics that need to integrate into synergetic harmony. It requires too much effort for one person to be effective in an environment with strict deadlines and quality control concerns. As such, with the insertion of multiple developers, codebases can get messy. Teams need to have a useful paradigm and business processes to provide results regularly. I perform work based on the AGILE methodology and used version control software Git to organize the code. I had the opportunity to explore multiple roles, including developer, tester, scrum master, and even a product manager. Utilizing Git, I obtained first-hand experience working on remote repositories. I made pull requests, created developmental branches, created new features, pushed code back to the repository, and reviewed other collaborators’ code before merging new code into the master branch.
 </details>
  
 ##### Communication to Stakeholders
 <details>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<summary>Click here to learn more!</summary>
+	<summary>Click here to learn more!</summary>
 
 Not everything task I have performed included technical skills. I learned that clients and investors play a significant role in the developmental process. Software teams need to communicate with their clients to produce user requirements consistently and effectively; in the agile methodology, this process leads to user stories, a tool to develop functionality in software. Developers can create elaborate programs with all of the bells and whistles, but if that program does not meet the client’s needs or is too complicated to use, it is virtually useless. After all, what is the purpose of a business that does not satisfy its clients’ needs? 
 </details>
 
 ##### Data Structures and Algorithms
 <details>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<summary>Click here to learn more!</summary>
+	<summary>Click here to learn more!</summary>
 
 The topic with the most demanding needs of cognitive ability was data structures and algorithms. Nearly every function produced in a programming language fits the algorithm’s definition as a set of instructions for a computer to interpret. The particular algorithms and data structures I studied were of unified importance to software development and laid a foundation to produce even more complicated, useful, and efficient algorithms in the future. To build this foundation, I utilized the C++ language as its low-level architecture was immensely helpful to create a deep understanding of how the computer interprets instructions, including managing the computer’s RAM, which is handled automatically by many higher-level languages. 
 	
@@ -29,21 +29,21 @@ The efficiency of an algorithm is measured by how effectively the algorithm can 
 
 ##### Software Engineering and Databases
 <details>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<summary>Click here to learn more!</summary>
+	<summary>Click here to learn more!</summary>
 
 The critical marker between a simple script and a fully functioning proper application is the relationship between software programs and databases. Programs run on the computer’s RAM, which is thought of as volatile memory as it deletes itself when the program restarts. For the program to be more useful, it can use persistent memory, meaning the memory will save even after a restart. The way to engineer this design is to link the program to a database. Many databases are available, but the most common ones are structure query language(SQL) or non-structured query language(No-SQL). SQL utilized a table-like architecture, like an Excel spreadsheet, to structure data, while No-SQL uses documents similar to objects in most programming languages. Online forums have heavily debated as to which one is the best. Still, they both have advantages and disadvantages and deserve deep consideration when choosing a database.
 </details>
 
 ##### Security
 <details>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<summary>Click here to learn more!</summary>
+	<summary>Click here to learn more!</summary>
 
 There is one more topic that does need addressing, security. As the world’s individuals become more integrated with technology, there lies the potential to exploit holes in programs’ security. The prospect of the exploitation of private information is a massive concern for me. Security is a topic of enormous scale, and there are many techniques in play to kept information secured. There are techniques that a software engineer can employ that will help security. The first line of defense for a software engineer is to validate user inputs. Software is particularly vulnerable at any point where a hacker could send code to the program.  So a developer should never trust user input and always validate the data coming in.
 </details>
 
 ##### Conclusion
 <details>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<summary>Click here to learn more!</summary>
+	<summary>Click here to learn more!</summary>
 
 I have tried to summarize what I have learned during my time in the computer science program, but even a summary does not elaborate on the details I consider essential. Let it be known that this summary does not effectively document everything I have learned over the years. It will take many more pages and then possibly a publisher to demonstrate the knowledge I have gained. Hopefully, it does justice enough, and I am forever grateful for the exposure and professional development.
 </details>
@@ -53,6 +53,7 @@ I have tried to summarize what I have learned during my time in the computer sci
 <iframe width="420" height="315"
 src="https://www.youtube.com/watch?v=b2YMmRToSyE&feature=youtu.be">
 </iframe> 
+[![Link to code review video](https://img.youtube.com/vi/b2YMmRToSyE&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=b2YMmRToSyE&feature=youtu.be)
 
 There are some obvious and not-so-obvious benefits of conducting code reviews. The first benefit of working on regular code reviews is that you will become a better developer. Mistakes in the code will be brought to your attention, and you will learn why it is a mistake and possibly learn a better solution to the initial problem. Other benefits include a more consistent design of the code base, better team building, and team members’ confidence. Some people may find that conducting code reviews takes too much time out of their day, but this is a destructive mindset. Not conducting a code review will significantly increase the chance that a major bug will be introduced in the program’s production and substantially damage investors’ reputation and financial security. Not to mention and take more time to find and fix the same bug. These consequences could be avoided if the bug was found in the SDLC development phases. This is why code reviews are considered a best practice.
  
