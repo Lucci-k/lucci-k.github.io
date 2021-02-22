@@ -30,7 +30,7 @@ There is one more topic that does need addressing, security. As the world’s in
 	
 I have tried to summarize what I have learned during my time in the computer science program, but even a summary does not elaborate on the details I consider essential. Let it be known that this summary does not effectively document everything I have learned over the years. It will take many more pages and then possibly a publisher to demonstrate the knowledge I have gained. Hopefully, it does justice enough, and I am forever grateful for the exposure and professional development.
 	
-## Code Reviews
+## Code Review Example
 
  <iframe width="420" height="315"
 src="https://youtu.be/b2YMmRToSyE">
@@ -40,65 +40,59 @@ There are some obvious and not-so-obvious benefits of conducting code reviews. T
  
 ## Test-driven Development Example
 
-[View on Github](https://github.com/Lucci-k/medical-receptionist-jest-example)
+[View Source Code on Github](https://github.com/Lucci-k/medical-receptionist-jest-example)
 
 The original artifact was created in August 2020. It was a buggy Java Maven projected intent to use medical receptionists to log patient’s history. As the students, we were tasked with writing test cases using the Junit library to expose bugs in the project to make it function as intended.
 	
-###### Portfolio Inclusion
+###### Inclusion
 
-I have several reasons I had decided to include this project in my portfolio. I wanted to showcase my ability to think about the SDLC, particularly my knowledge of the importance of test code critically. My original test cases back in 2020 were rather sloppy and hastily done. The enhancements I had made shows a much deeper understanding of the test first paradigm. 
-	
-###### Objectives
-
-The following is a list of my planned objectives for my enhancements of this project:
-
-- Create more robust test cases.
-- Build knowledge in another popular testing library.
-- Convert the original project to JavaScript. 
-- Build test cases before writing the project’s code.
-- Improve the readability and comments of the code.
-
-These are all the objectives I have accomplished. There is one small exception. I did not build a CLI or a GUI for a user to interact with the project. The reason for this is that this project was much more time consuming than what I was able to allot to it. My core objectives were still met, and I believe the project’s state shows my ability to write tests well enough. At this point, my time will be better spent working on my other due enhancements.
+I have several reasons I had decided to include this project in my portfolio. I wanted to showcase my ability to think about the SDLC, particularly my knowledge of the importance of testing code. My original test cases back in 2020 were rather sloppy and hastily done. The enhancements I had made shows a much deeper understanding of the test first paradigm. 
 
 ###### Enhancements and Challenges
 
-The core of this project was to use Jest to write test cases, and that is where I faced my first challenges. Jest was unfamiliar territory, so I began studying the documentation https://jestjs.io/en/ to understand the structure of writing the test cases and learn the most common methods I will be using. Including test(), expect(), toBe(), toContain(), toContainEqual(). I also learn how to install it by using NPM, which was a simple enough process. Learning the Jest syntax was straightforward, but analyzing my older code to find faults in my logic was much more beneficial than learning new syntax. I then had to translate my old Java code into JavaScript. I found out rather quickly that JavaScript has many downsides if you plan to use it in an object-oriented paradigm, which this project was. Most notably, the inability to have a true private variable for encapsulation. Though I am not as familiar with it, JavaScript appears to be better adept for functional programming. Even so, I carried on anyway. JavaScript is also a loosely typed language, and there was a couple of occasions I had to deal with data type errors. Writing the tests first was a goal of mine, but I did run into issues doing this. I was not always sure what would need to be returned from the class methods, so I gave my best approximations. This process resulted in me revisiting most of my test cases to rewrite what was actually being returned from the project’s methods. My future recommendation to remedy this is to create UML graphics to organize better how the code should interact. I feel I can save much more time and frustrations doing the coding process by doing more planning.
+The core of this project was to use Jest to write test cases, and that is where I faced my first challenges. Jest was unfamiliar territory, so I began studying the documentation https://jestjs.io/en/ to understand the structure of writing the test cases and learn the most common methods I will be using. Including test(), expect(), toBe(), toContain(), toContainEqual(). I also learn how to install it by using NPM, which was a simple enough process. Learning the Jest syntax was straightforward, but analyzing my older code to find faults in my logic was much more beneficial than learning new syntax. I then had to translate my old Java code into JavaScript. 
 
+I found out rather quickly that JavaScript has many downsides if you plan to use it in an object-oriented paradigm, which this project was. Most notably, the inability to have a true private variable for encapsulation. Though I am not as familiar with it, JavaScript appears to be better adept for functional programming. Even so, I carried on anyway. JavaScript is also a loosely typed language, and there was a couple of occasions I had to deal with data type errors. TypeScript may have been beneficial in this project as well. 
 
-## Welcome to GitHub Pages
+Writing the tests first was a goal of mine, but I did run into issues doing this. I was not always sure what would need to be returned from the class methods, so I gave my best approximations. This process resulted in me revisiting most of my test cases to rewrite what was actually being returned from the project’s methods. My future recommendation to remedy this is to create UML graphics to organize better how the code should interact. I feel I can save much more time and frustrations doing the coding process by doing more planning.
 
-You can use the [editor on GitHub](https://github.com/Lucci-k/lucci-k.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## Dijkstra's Algorithm Example
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[View the Project in Action] (https://dazzling-turing-b3d4c3.netlify.app/)
 
-### Markdown
+[View Source Code on Github](https://github.com/Lucci-k/medical-receptionist-jest-example)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I first started this project at the beginning of February 2021. It is an implementation of Dijkstra’s algorithm, also known as the shortest path algorithm. Dr. Edsger W. Dijkstra made the algorithm in 1956 while having coffee with his fiancé in Amsterdam. The algorithm is useful to find the shortest distance between two nodes. Nodes are data structures that are referenced together in a graph. A graph is a collection of nodes that may be directly or indirectly referenced together.  
 
-```markdown
-Syntax highlighted code block
+I implemented the algorithm in a simple web app that is not too pretty currently. The app allows you to create “walls” to impede the algorithm. The user can then watch algorithm navigation around the walls to find the shortest distance between the start node and finish node.
 
-# Header 1
-## Header 2
-### Header 3
+For this artifact, I opted to use React, a JavaScript library that uses a JSX language that uses HTML-like syntax. I choose to use React because native JavaScript, HTML, CSS proved to be taking a long time to implement this project. I decided to dump what I have produced to save some time in the long run.
 
-- Bulleted
-- List
+###### Inclusion
 
-1. Numbered
-2. List
+This project has been something I have wanted to invest in for quite some time. I believe the combination of JavaScript, React, and Dijkstra’s algorithm showcase skills in multiple areas. Furthermore, this project will allow someone to interact with the algorithm. It has the potential to be more engaging for a person as they can change the board for the algorithm to navigate and see the algorithm do its work versus just looking at some lines of codes and seeing the output.  
 
-**Bold** and _Italic_ and `Code` text
+###### Enhancements and Challenges
 
-[Link](url) and ![Image](src)
-```
+There is much potential to improve this project. CSS is minimal, and so far, it is only used to the visual nodes (the graph) in the correct shape. The app can be made much prettier in the future. I implemented not-so-efficient functions in the project. For example, there are two nested “for” loops in the code, which is terrible because they are running exponentially. The code needs to be refactored. The nodes are also stored in an array, and the algorithm has to sort through the arrays continually. A heap could potentially be a better replacement for the arrays. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+One of the main frustrations I faced in this project was breaking down how to implement the algorithm. There are numerous sources on the web that explain what the algorithm does in varying complexity. Unfortunately, I didn’t find any good step-by-step sources. I want to write a blog or post on a forum an easy-to-understand guide on implementing this algorithm in the future. Hopefully, that guide will help someone in my shoes in the future.
 
-### Jekyll Themes
+## RESTful API with NodeJS	
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Lucci-k/lucci-k.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+I create the original version of version of this project in August 2020. In the original version. The project was a back-end that took HTML GET, POST, PUT, and DELETE requests through an URL. From there, the API made a connection to a Mongo database to retrieve data for the user. The API was written in Python with the PyMongo and Bottle frameworks. This newer version is written in NodeJS and uses the Express framework and the MongoClient driver. Unlike the old one, the new API uses query parameters, which can be retrieved from HTML forms from the front end. There are also other improvements made, which are detailed later in this document.
 
-### Support or Contact
+###### Inclusion
+	
+I have decided to include this API in my online portfolio to showcase my knowledge of back-end systems. I realize that the third enhancement asked for a project with databases, but I feel working with databases in isolated conditions is not immensely helpful in the real world. By making an API, I can prove my ability to interact with a database through an outside entity and create the infrastructure required for a back-end system.  
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+###### Enhancements and Challenges
+
+[View Source Code on Github](https://github.com/Lucci-k/rest-server-NodeJS-Example)
+
+While creating this API and review the original version, I found many areas for improvement. I decided to change the language to NodeJS because it is a more popular language written for back-ends. The native HTML driver felt somewhat ugly to me, so I decided to include the express library to make the project more comfortable to read and understand. I also choose to make variable names more descriptive and refactor repeated code where possible. I kept the API relatively small and made just enough functions to demonstrate the ability to make different requests. There plenty of room to further expand the API to create more functionality. For example, I could create more ways to search for properties with different parameters.
+	
+The original version of the project did not make use of query parameters. I decided to make sure to take use query parameters for the potential of being able to extract the parameters from an HTML form in the future. I even thought about including a simple front end to interact with the API, but I decided against it to save some time. Another improvement I made was I put the Mongo database on the cloud. In the last project, everything was localized and isolated from any networks, which is not particularly useful for a proper application. 
+	
+I confronted one error that was a particular issue for me. When using the aggregate method from MongoClient, I kept receiving a cursor object reference error. I resorted to stackoverflow.com to understand what was happening. I learned that this error occurs when two objects reference each other, which creates a cyclic reference. I am still wrapping my head around where the cycle was happening in the code. What I did know at the time was that the aggregate function was returning a cursor object, and that was the method giving me issues. I learned the cursor object was iterable, so I decided I should iterate through the object and push each element to an array, thinking that an array is not an object and thus I would not receive the error. I was guessing here, but the solution did work, and I could get the data I was looking for in the end. I believe that this issue is because of the JavaScript engine, as I do not recall having this issue with Python.
+
