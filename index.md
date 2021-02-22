@@ -1,6 +1,6 @@
 ## Start of My Journey
 
-    When I first started my computer science journey in early 2017, I understood and practiced simple computer tasks. Still, I did not fully comprehend just how sophisticated and inspiring computer science is. I started learning Python, a comfortable and forgiving language to learn. Python exposed me to the fundamental concepts of any language, data types, variables, etc. Then I ran into the for and while loops. In short, loops wrecked my world, not because I didn’t understand what they were or their purpose, but I didn’t understand how or why they worked. That is when I fell down the hypothetical rabbit hole. I am an individual that has a burning desire to understand the world around me. At ten years old, I took the family computer and broke it down to every last screw, and then I attempted to reassemble it. Seeing the computer on the surface wasn’t good enough for me; I needed to understand what was inside that made the computer work. Python, being as mysterious as it was, became my new target. That trend would continue through my professional exploration of computer science. Because of how massive the field is, I know I will continue developing my knowledge and myself.
+When I first started my computer science journey in early 2017, I understood and practiced simple computer tasks. Still, I did not fully comprehend just how sophisticated and inspiring computer science is. I started learning Python, a comfortable and forgiving language to learn. Python exposed me to the fundamental concepts of any language, data types, variables, etc. Then I ran into the for and while loops. In short, loops wrecked my world, not because I didn’t understand what they were or their purpose, but I didn’t understand how or why they worked. That is when I fell down the hypothetical rabbit hole. I am an individual that has a burning desire to understand the world around me. At ten years old, I took the family computer and broke it down to every last screw, and then I attempted to reassemble it. Seeing the computer on the surface wasn’t good enough for me; I needed to understand what was inside that made the computer work. Python, being as mysterious as it was, became my new target. That trend would continue through my professional exploration of computer science. Because of how massive the field is, I know I will continue developing my knowledge and myself.
 	
 ## What Did I Learn?
 
@@ -52,11 +52,11 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
 
 The following is a list of my planned objectives for my enhancements of this project:
 
--Create more robust test cases.
--Build knowledge in another popular testing library.
--Convert the original project to JavaScript. 
--Build test cases before writing the project’s code.
--Improve the readability and comments of the code.
+- Create more robust test cases.
+- Build knowledge in another popular testing library.
+- Convert the original project to JavaScript. 
+- Build test cases before writing the project’s code.
+- Improve the readability and comments of the code.
 
 	These are all the objectives I have accomplished. There is one small exception. I did not build a CLI or a GUI for a user to interact with the project. The reason for this is that this project was much more time consuming than what I was able to allot to it. My core objectives were still met, and I believe the project’s state shows my ability to write tests well enough. At this point, my time will be better spent working on my other due enhancements.
 
