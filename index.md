@@ -1,3 +1,6 @@
+---
+youtubeId: b2YMmRToSyE 
+---
 ## Start of My Journey
 
 When I first started my computer science journey in early 2017, I understood and practiced simple computer tasks. Still, I did not fully comprehend just how sophisticated and inspiring computer science is. I started learning Python, a comfortable and forgiving language to learn. Python exposed me to the fundamental concepts of any language, data types, variables, etc. Then I ran into the for and while loops. In short, loops wrecked my world, not because I didn’t understand what they were or their purpose, but I didn’t understand how or why they worked. That is when I fell down the hypothetical rabbit hole. I am an individual that has a burning desire to understand the world around me. At ten years old, I took the family computer and broke it down to every last screw, and then I attempted to reassemble it. Seeing the computer on the surface wasn’t good enough for me; I needed to understand what was inside that made the computer work. Python, being as mysterious as it was, became my new target. That trend would continue through my professional exploration of computer science. Because of how massive the field is, I know I will continue developing my knowledge and myself.
@@ -49,6 +52,8 @@ I have tried to summarize what I have learned during my time in the computer sci
 </details>
 
 ## Code Review Example
+
+{% include youtubePlayer.html id=page.youtubeId %}
 
 [![Link to code review video](https://img.youtube.com/vi/b2YMmRToSyE/0.jpg)](https://www.youtube.com/watch?v=b2YMmRToSyE)
 
