@@ -55,8 +55,6 @@ I have tried to summarize what I have learned during my time in the computer sci
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
-[![Link to code review video](https://img.youtube.com/vi/b2YMmRToSyE/0.jpg)](https://www.youtube.com/watch?v=b2YMmRToSyE)
-
 There are some obvious and not-so-obvious benefits of conducting code reviews. The first benefit of working on regular code reviews is that you will become a better developer. Mistakes in the code will be brought to your attention, and you will learn why it is a mistake and possibly learn a better solution to the initial problem. Other benefits include a more consistent design of the code base, better team building, and team members’ confidence. Some people may find that conducting code reviews takes too much time out of their day, but this is a destructive mindset. Not conducting a code review will significantly increase the chance that a major bug will be introduced in the program’s production and substantially damage investors’ reputation and financial security. Not to mention and take more time to find and fix the same bug. These consequences could be avoided if the bug was found in the SDLC development phases. This is why code reviews are considered a best practice.
  
 ## Test-driven Development Example
